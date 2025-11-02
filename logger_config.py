@@ -3,14 +3,19 @@ from logging.handlers import RotatingFileHandler
 
 
 def setup_logger():
-    logger = logging.getLogger("api-fetcher")
+    logger = logging.getLogger("api_fetcher")
     logger.setLevel(logging.INFO)
 
-    handler = RotatingFileHandler("fetcher.log", maxBytes=2000000, backupCount=3)
-    formatter = logging.Formatter("%(asctime)s - %(message)s")
-    handler.setFormatter(formatter)
+    # File handler
+    file_handler = RotatingFileHandler("fetcher.log", maxBytes=2000000, backupCount=3, encoding="utf-8")
+    file_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    file_handler.setFormatter(file_formatter)
+    logger.addHandler(file_handler)
 
-    if not logger.hasHandlers():
-        logger.addHandler(handler)
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    console_handler.setFormatter(console_formatter)
+    logger.addHandler(console_handler)
 
     return logger
