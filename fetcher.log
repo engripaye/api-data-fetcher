@@ -12,3 +12,8 @@
 2025-11-02 10:59:43,426 - Data saved to data/coin_data.json
 2025-11-02 10:59:43,427 - Data saved to data/coin_data.csv
 2025-11-02 10:59:43,427 - Project run completed successfully.
+2025-11-02 11:02:29,225 - INFO - Fetching data (Attempt 1 from https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin)
+2025-11-02 11:02:30,285 - INFO - Data fetched successfully
+2025-11-02 11:02:30,293 - INFO - Data saved to data/coin_data.json
+2025-11-02 11:02:30,295 - INFO - Data saved to data/coin_data.csv
+2025-11-02 11:02:30,295 - INFO - Project run completed successfully.
