@@ -5,7 +5,7 @@ import csv
 
 
 class APIFetcher:
-    def __init__(self, logger, retries, delay=2):
+    def __init__(self, logger, retries=3, delay=2):
         self.logger = logger
         self.retries = retries
         self.delay = delay

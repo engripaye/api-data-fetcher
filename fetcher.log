@@ -1,0 +1,14 @@
+2025-11-02 10:58:08,292 - Fetching data (Attempt 1 from https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin)
+2025-11-02 10:58:09,434 - Data fetched successfully
+2025-11-02 10:58:09,438 - Data saved to data/coin_data.json
+2025-11-02 10:58:09,439 - Data saved to data/coin_data.csv
+2025-11-02 10:59:24,059 - Fetching data (Attempt 1 from https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin)
+2025-11-02 10:59:25,022 - Data fetched successfully
+2025-11-02 10:59:25,024 - Data saved to data/coin_data.json
+2025-11-02 10:59:25,025 - Data saved to data/coin_data.csv
+2025-11-02 10:59:25,025 - Project run completed successfully.
+2025-11-02 10:59:42,521 - Fetching data (Attempt 1 from https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=bitcoin)
+2025-11-02 10:59:43,424 - Data fetched successfully
+2025-11-02 10:59:43,426 - Data saved to data/coin_data.json
+2025-11-02 10:59:43,427 - Data saved to data/coin_data.csv
+2025-11-02 10:59:43,427 - Project run completed successfully.

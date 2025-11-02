@@ -15,7 +15,7 @@ def main():
     if data:
         fetcher.save_json(data, "data/coin_data.json")
         fetcher.save_csv(data, "data/coin_data.csv")
-        logger.info("✅ Project run completed successfully.")
+        logger.info("Project run completed successfully.")
     else:
         logger.error("❌ Failed to fetch data after retries.")
 
